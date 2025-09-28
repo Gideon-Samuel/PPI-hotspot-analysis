@@ -15,17 +15,6 @@ It parses PDB structures, builds an interaction network, and highlights residues
 
 ---
 
-## Repository Structure
-ppi-hotspot-analysis/
-│
-├─ src/ # Core Python scripts
-├─ data/ # Input PDB files
-├─ notebooks/ # Jupyter notebooks (analysis / demos)
-├─ results/ # Figures, CSVs, and output graphs
-└─ README.md
-
----
-
 python3 -m venv env
 source env/bin/activate
 pip install -r requirements.txt
